@@ -287,9 +287,12 @@ main {
   display: inline;
 }
 
+.weather__next {
+  display: flex;
+  justify-content: space-between;
+}
+
 .weather__next__item {
-  display: inline-block;
-  width: 20%;
   text-align: center;
 }
 
