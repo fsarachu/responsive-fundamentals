@@ -352,8 +352,13 @@ footer {
   width: 100%;
 }
 
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 footer li {
-  display: inline-block;
   margin: 0 1em;
 }
 
