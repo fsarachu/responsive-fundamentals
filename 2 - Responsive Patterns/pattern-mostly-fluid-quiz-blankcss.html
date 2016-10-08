@@ -57,13 +57,19 @@
       width: 100%;
     }
 
-    @media screen and (max-width: 400px) {
-      .dark_blue, .red, .orange {
-        width: 100%;
-      }
-
+    @media screen and (min-width: 450px) {
       .light_blue, .green {
         width: 50%;
+      }
+    }
+
+    @media screen and (min-width: 550px) {
+      .red {
+        width: 33%;
+      }
+
+      .orange {
+        width: 67%;
       }
     }
   </style>
