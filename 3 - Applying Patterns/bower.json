@@ -1,0 +1,18 @@
+{
+  "name": "3 - Applying Patterns",
+  "homepage": "https://github.com/fsarachu/responsive-fundamentals",
+  "authors": [
+    "fsarachu <fsarachu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
