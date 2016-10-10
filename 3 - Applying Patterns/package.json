@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fsarachu/responsive-fundamentals#readme",
   "devDependencies": {
+    "browser-sync": "^2.17.2",
     "gulp": "^3.9.1"
   }
 }
