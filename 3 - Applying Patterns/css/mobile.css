@@ -297,12 +297,13 @@ main {
 
 .weather {
   width: 100%;
-  padding: 1em;
+  padding: 0 2em;
+  margin: 2em 0;
 }
 
 .weather__location {
   display: block;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.5em;
 }
 
@@ -312,12 +313,26 @@ main {
 }
 
 .weather__today {
-  width: 60%;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 1em 0;
+}
+
+.weather__today__text {
+  flex: 0 1 auto;
+}
+
+.weather__today__figure {
+  margin: 0;
+  padding: 0;
+  flex: 0 1 auto;
 }
 
 .weather__today__image {
-  vertical-align: middle
+  width: 100%;
 }
 
 .weather__today__temp {
@@ -332,6 +347,9 @@ main {
 .weather__next {
   display: flex;
   justify-content: space-between;
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .weather__next__item {
