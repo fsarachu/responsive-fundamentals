@@ -196,15 +196,14 @@ main {
 
 .top-news {
   width: 100%;
-  height: 300px;
-  border-bottom: 1px solid #E0E0E0;
-  padding: 1em;
+  padding: 0 1em;
+  margin: 1.5em 0;
 }
 
 .news__title {
-  font-weight: 300;
+  font-weight: 400;
   border-bottom: 1px solid #E0E0E0;
-  line-height: 24px;
+  line-height: 32px;
   font-size: 16px;
 }
 
@@ -214,12 +213,14 @@ main {
   line-height: 19px;
 }
 
-.top-news__item:before {
-  content: "» ";
-}
-
 .top-news__item:last-child {
   border-bottom: none;
+}
+
+.top-news__item:before {
+  content: "» ";
+  color: #3A3A3A;
+  font-weight: 500;
 }
 
 .top-news__item a {
