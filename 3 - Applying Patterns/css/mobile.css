@@ -107,7 +107,7 @@ ul {
   z-index: 99;
   background: #FAFAFA;;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.26);
-  transition: top .3s ease-out;
+  transition: top .4s ease-out;
 }
 
 .nav__list {
