@@ -241,13 +241,15 @@ main {
 
 .scores {
   width: 100%;
-  padding-top: 1em;
+  padding: 0;
+  margin: 1.5em 0;
   overflow-x: auto;
 }
 
 .scores__table {
   width: 100%;
   border-collapse: collapse;
+  color: #4b4b4b;
 }
 
 .scores__table th,
@@ -256,17 +258,19 @@ main {
 }
 
 .scores__table th {
-  color: #fff;
-  font-weight: 300;
-  background-color: #78909C;
+  color: #ffffff;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: #90A4AE;
 }
 
 .scores__table tr:nth-child(odd) td {
-  background-color: #fff;
+  background-color: #FAFAFA;
 }
 
 .scores__table tr:nth-child(even) td {
-  background-color: #eceff1;
+  background-color: #F5F5F5;
 }
 
 .scores__table td.winner {
@@ -277,8 +281,11 @@ main {
   text-align: right;
 }
 
-.scores__table td:nth-child(2),
-.scores__table td:nth-child(5) {
+.scores__table td:nth-child(4) {
+  text-align: left;
+}
+
+.scores__table td {
   text-align: center;
 }
 
