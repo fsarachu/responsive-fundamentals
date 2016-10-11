@@ -376,23 +376,33 @@ main {
  */
 
 .recent-news {
-  clear: both;
-  padding: 1em;
+  padding: 0 1em;
+  margin: 2em 0;
 }
 
 .snippet {
-  clear: both;
-  margin: 24px 0;
+  display: flex;
+  margin: 1em 0;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .snippet__thumbnail {
-  width: 100px;
-  float: left;
-  margin-right: 1em;
+  width: 25%;
+  padding: 0 1em 0 0;
+  margin: 0;
+}
+
+.snippet__text {
+  width: 75%;
+  margin: 0;
+  padding: 0;
 }
 
 .snippet__title {
   font-weight: 500;
+  display: block;
 }
 
 .snippet__title a {
