@@ -365,6 +365,10 @@ main {
   width: 100%;
 }
 
+.weather__next__day {
+  font-weight: 500;
+}
+
 /*
  *
  * Weather
