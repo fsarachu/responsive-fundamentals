@@ -381,38 +381,40 @@ main {
 }
 
 .snippet {
+  margin: 1.5em 0;
+}
+
+.snippet a {
+  height: 90px;
   display: flex;
-  margin: 1em 0;
-  height: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.snippet__thumbnail {
-  width: 25%;
-  padding: 0 1em 0 0;
-  margin: 0;
-}
-
-.snippet__text {
-  width: 75%;
-  margin: 0;
-  padding: 0;
-}
-
-.snippet__title {
-  font-weight: 500;
-  display: block;
-}
-
-.snippet__title a {
   text-decoration: none;
   color: #666;
 }
 
-.snippet__title a:hover,
-.snippet__title a:active {
-  text-decoration: underline;
+.snippet__thumbnail {
+  width: 90px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.snippet__text {
+  flex: 1 1 auto;
+  margin: 0 0 0 1em;
+  padding: 0;
+  overflow: hidden;
+}
+
+.snippet__text h3 {
+  font-weight: 500;
+}
+
+.snippet__text p {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /*
