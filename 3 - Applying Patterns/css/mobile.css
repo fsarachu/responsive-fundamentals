@@ -413,8 +413,9 @@ main {
 
 footer {
   border-top: 1px solid #E0E0E0;
-  padding: 1em;
+  padding: 0;
   width: 100%;
+  background: #eaeaea;
 }
 
 footer ul {
@@ -423,11 +424,11 @@ footer ul {
   justify-content: center;
 }
 
-footer li {
-  margin: 0 1em;
-}
-
 footer a {
+  width: 100%;
+  display: block;
+  padding: 1em;
   text-decoration: none;
-  color: #333;
+  font-weight: 500;
+  color: #646464;
 }
