@@ -182,7 +182,7 @@ main {
   position: absolute;
   bottom: 0;
   right: 0;
-  padding: 1em;
+  padding: 1.5em;
   height: 40%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -197,7 +197,7 @@ main {
 
 .top-news {
   width: 100%;
-  padding: 0 1em;
+  padding: 0 1.5em;
   margin: 1.5em 0;
 }
 
@@ -376,7 +376,7 @@ main {
  */
 
 .recent-news {
-  padding: 0 1em;
+  padding: 0 1.5em;
   margin: 2em 0;
 }
 
