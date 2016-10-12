@@ -51,7 +51,7 @@ ul {
   transition: min-height 0.3s;
 }
 
-.header__inner {
+.header__brand {
   width: 100%;
   margin: 0;
   display: flex;

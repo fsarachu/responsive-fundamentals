@@ -21,7 +21,7 @@
     margin: 0 auto;
   }
 
-  .header__inner {
+  .header__brand {
     flex: 0 1 auto;
     position: static;
     justify-content: flex-start;

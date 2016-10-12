@@ -52,7 +52,7 @@ ul {
   transition: min-height 0.3s;
 }
 
-.header__inner {
+.header__brand {
   width: 800px;
   margin-left: auto;
   margin-right: auto;
