@@ -1,3 +1,39 @@
 @media screen and (min-width: 768px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .hero {
+    order: 1;
+  }
+
+  .news.top-news {
+    order: 2;
+  }
+
+  .weather {
+    order: 3;
+  }
+
+  .scores {
+    order: 4;
+  }
+
+  .news {
+    order: 5;
+  }
+
+  .news.top-news, .weather {
+    flex: 0 1 calc(50% - .5em);
+    margin: 2em .5em 2em 0;
+  }
+
+  .scores {
+    order: 4;
+  }
+
+  .news {
+    order: 5;
+  }
 }
