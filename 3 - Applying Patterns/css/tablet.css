@@ -1,4 +1,6 @@
 @media screen and (min-width: 768px) {
+
+  /* Flex Layout */
   .content {
     display: flex;
     flex-wrap: wrap;
@@ -29,11 +31,9 @@
     margin: 2em .5em 2em 0;
   }
 
-  .scores {
-    order: 4;
+  /* Other styling */
+  .hero {
+    height: 350px;
   }
 
-  .news {
-    order: 5;
-  }
 }
