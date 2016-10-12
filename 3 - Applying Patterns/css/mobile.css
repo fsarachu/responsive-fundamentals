@@ -183,7 +183,7 @@ main {
   bottom: 0;
   right: 0;
   padding: 1.5em;
-  height: 40%;
+  min-height: 40%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   color: #f1f1f1;
