@@ -9,7 +9,6 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 12px;
   color: #424242;
-  padding-top: 58px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -47,23 +46,26 @@ ul {
 
 .header {
   width: 100%;
-  height: 58px;
   position: fixed;
   top: 0;
   right: 0;
   z-index: 100;
-  background: #FFFFFF;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
 }
 
 .header__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
   width: 100%;
-  height: 100%;
+  height: 58px;
   margin: 0;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 300;
+  background: #FFFFFF;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
 }
 
 .header__logo {
@@ -81,16 +83,20 @@ ul {
   color: #545454;
 }
 
-.header__toggle {
+#nav__toggle {
   padding: 0;
   margin: 0;
-  font-size: 32px;
+  font-size: 24px;
   color: #444444;
 }
 
 #nav__toggle {
-  padding: 10px 20px;
+  padding: 17px 20px;
   cursor: pointer;
+}
+
+body {
+  padding-top: 58px;
 }
 
 /*
@@ -102,10 +108,10 @@ ul {
 #main-nav {
   width: 100%;
   margin: 0;
-  position: fixed;
+  position: absolute;
   top: 58px;
   right: 0;
-  z-index: 99;
+  z-index: 200;
   background: #fafafa;;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
   transition: top .4s ease-out;
