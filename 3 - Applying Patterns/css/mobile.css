@@ -99,7 +99,7 @@ ul {
  *
  */
 
-.nav {
+#main-nav {
   width: 100%;
   margin: 0;
   position: fixed;
@@ -142,7 +142,7 @@ ul {
   background: rgba(0, 0, 0, .05);
 }
 
-.nav.hidden {
+#main-nav.hidden {
   top: -58px;
 }
 
