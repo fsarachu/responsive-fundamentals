@@ -31,13 +31,56 @@
     margin: 2em .5em 2em 0;
   }
 
-  /* Other styling */
+  /* Hero area */
   .hero {
     height: 350px;
   }
 
+  /* Header and Navigation */
+  #nav__toggle {
+    display: none;
+  }
+
+  #main-nav.hidden {
+    top: 58px;
+  }
+
+  .header {
+    padding: 0 1.5em;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .header__wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .header__inner {
+    flex: 0 1 auto;
+    position: static;
+    justify-content: flex-start;
+    box-shadow: none;
+  }
+
+  .header__title {
+    padding: 0 0 0 .8em;
+    font-size: 1.2rem;
+  }
+
+  .header__logo {
+    padding: 0;
+  }
+
+  #main-nav {
+    position: static;
+    background: #FFFFFF;
+    box-shadow: none;
+  }
+
   .nav__list {
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .nav__item {
@@ -46,7 +89,7 @@
 
   .nav__item a {
     box-sizing: border-box;
-    padding: 17px 3em;
+    padding: 17px 2em;
   }
 
 }
