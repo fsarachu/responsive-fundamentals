@@ -10,11 +10,11 @@
     order: 1;
   }
 
-  .weather {
+  .news.top-news {
     order: 2;
   }
 
-  .news.top-news {
+  .weather {
     order: 3;
   }
 
