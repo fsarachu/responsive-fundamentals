@@ -36,4 +36,17 @@
     height: 350px;
   }
 
+  .nav__list {
+    justify-content: center;
+  }
+
+  .nav__item {
+    flex: 0 1 48px;
+  }
+
+  .nav__item a {
+    box-sizing: border-box;
+    padding: 17px 3em;
+  }
+
 }
