@@ -92,4 +92,14 @@
     padding: 17px 2em;
   }
 
+  /* Latest News */
+  .news.recent-news ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .snippet {
+    flex: 0 0 50%;
+  }
+
 }
